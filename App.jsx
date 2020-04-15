@@ -14,7 +14,7 @@ export default class App extends React.Component {
       visible: false,
     };
 
-    this.setVisible = visible => this.setState({ visible });
+    this.setVisible = visible => this.setState({ visible: visible });
     this.openFssc = this.openFssc.bind(this);
     this.openFssc2 = this.openFssc2.bind(this);
   }
